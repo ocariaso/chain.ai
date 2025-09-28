@@ -12,7 +12,7 @@ it currently focuses on Bitcoin (BTC/USD) for live signal generation, it is acti
 - **Specialized Model Training**: Trains dedicated Random Forest Classifiers for each of the 8 timeframes, utilizing class weighting to better handle imbalanced prediction targets (`UP`/`DOWN`/`FLAT`).
 - **Rigorous Backtesting**: Separately simulates trading performance on the unseen **Test Set** with realistic parameters, including initial capital, trade size, and **0.05% transaction costs**.
 - **Actionable Signal Generation**: Produces a live, machine-readable `signal_report.json` file containing a prediction and a **Confidence Score** (based on the model's UP/DOWN prediction precision) for external trading bot consumption.
-### Future (Planned):
+#### Future (Planned):
 - trading bot
 - gui
 - Others are to be announced...
