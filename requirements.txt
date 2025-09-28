@@ -1,0 +1,6 @@
+pandas
+ta
+ccxt
+joblib
+scikit-learn
+tabulate

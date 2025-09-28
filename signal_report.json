@@ -1,0 +1,50 @@
+[
+    {
+        "timeframe": "1m",
+        "last_candle": "2025-09-28 08:40:00",
+        "signal": "FLAT",
+        "accuracy": "28.84%"
+    },
+    {
+        "timeframe": "5m",
+        "last_candle": "2025-09-28 08:40:00",
+        "signal": "FLAT",
+        "accuracy": "29.79%"
+    },
+    {
+        "timeframe": "15m",
+        "last_candle": "2025-09-28 08:30:00",
+        "signal": "DOWN",
+        "accuracy": "36.38%"
+    },
+    {
+        "timeframe": "30m",
+        "last_candle": "2025-09-28 08:30:00",
+        "signal": "DOWN",
+        "accuracy": "41.30%"
+    },
+    {
+        "timeframe": "1h",
+        "last_candle": "2025-09-28 08:00:00",
+        "signal": "UP",
+        "accuracy": "43.93%"
+    },
+    {
+        "timeframe": "6h",
+        "last_candle": "2025-09-28 06:00:00",
+        "signal": "DOWN",
+        "accuracy": "51.50%"
+    },
+    {
+        "timeframe": "1d",
+        "last_candle": "2025-09-28 00:00:00",
+        "signal": "UP",
+        "accuracy": "49.74%"
+    },
+    {
+        "timeframe": "10m",
+        "last_candle": "2025-09-28 08:40:00",
+        "signal": "DOWN",
+        "accuracy": "33.67%"
+    }
+]
