@@ -6,7 +6,7 @@ it currently focuses on Bitcoin (BTC/USD) for live signal generation, it is acti
 ## Features
 #### Current (Implemented):
 - **Multi-Timeframe Analysis**: Supports concurrent analysis and modeling across 8 timeframes (including API-fetched `1m`, `5m`, `15m`, `30m`, `1h`, `6h`, `1d`, and a custom-resampled `10m` chart).
-- **Incremental Data Management**: Uses **CCXT** to safely fetch and incrementally update historical OHLCV data from **Coinbase**, featuring robust de-duplication logic to maintain dataset integrity.
+- **Incremental Data Management**: Uses **CCXT** to safely fetch and incrementally update historical OHLCV data from **binance**, featuring robust de-duplication logic to maintain dataset integrity.
 - **Advanced Feature Engineering**: Automatically generates a comprehensive suite of Technical Analysis (TA) indicators (`RSI`, `MACD`, `Bollinger Bands`, `MA`, `ROC`) vital for model training.
 - **Time-Series Integrity**: Employs a critical **time-based data split** (70% Train, 15% Validation, 15% Test) across all models to eliminate look-ahead bias and ensure reliable evaluation.
 - **Specialized Model Training**: Trains dedicated Random Forest Classifiers for each of the 8 timeframes, utilizing class weighting to better handle imbalanced prediction targets (`UP`/`DOWN`/`FLAT`).
